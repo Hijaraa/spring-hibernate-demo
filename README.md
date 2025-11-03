@@ -45,14 +45,8 @@ Le projet inclut plusieurs tests unitaires qui vérifient le bon fonctionnement 
 - `TestHibernate` - Vérifie que la configuration Hibernate est correcte
 - `ProductDaoTest` - Teste toutes les opérations CRUD sur l'entité Product
 
-Les tests utilisent une base de données H2 en mémoire, ce qui permet de les exécuter sans avoir besoin d'une base de données MySQL. La configuration de test se trouve dans le fichier `src/test/resources/application.properties`.
+<img width="1388" height="739" alt="image" src="https://github.com/user-attachments/assets/47a0c497-6cdc-4827-a615-f2c5891e4aa4" />
+<img width="1374" height="722" alt="image" src="https://github.com/user-attachments/assets/c16bd06d-c1e2-44da-b677-595ec5347cfe" />
+<img width="1361" height="741" alt="image" src="https://github.com/user-attachments/assets/84fc2356-843b-4818-ac33-b807240eaca9" />
 
-Pour exécuter les tests :
-```bash
-mvn test
-```
 
-## Fonctionnalités
-- Création, lecture, mise à jour et suppression (CRUD) d'entités Product
-- Gestion automatique des transactions avec Spring
-- Mapping objet-relationnel avec Hibernate
